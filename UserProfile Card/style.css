@@ -75,12 +75,14 @@ font-size: 1.2rem;
     border-radius: 2rem;
     font-size: 1rem;
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 
 .hire-me:hover
 {
-    background: radial-gradient(circle at 100% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-
+    /* background: radial-gradient(circle at 100% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); */
+ background: black;
+ color: white;
 
 }
 
@@ -108,14 +110,20 @@ margin-top: 1rem;
     border-radius: 15%;
 }
 
-.instagram {
+ .youtube , .twitter, .instagram {
+    transition:all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.instagram:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
 
-.youtube {
+.youtube:hover {
     background-color: #ff0000;
+    
 }
-.twitter {
+.twitter:hover {
     background-color: #1D9BF0;
 }
 
