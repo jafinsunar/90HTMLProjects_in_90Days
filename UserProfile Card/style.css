@@ -92,3 +92,29 @@ font-size: 1.2rem;
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+.social-items {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 1rem;
+}
+
+.social-items li {
+    list-style: none;
+    padding: 0.8rem;
+    border-radius: 15%;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+.twitter {
+    background-color: #1D9BF0;
+}
