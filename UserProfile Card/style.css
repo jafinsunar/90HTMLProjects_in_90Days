@@ -118,3 +118,11 @@ margin-top: 1rem;
 .twitter {
     background-color: #1D9BF0;
 }
+
+.social-items i {
+    font-size: 1.5rem;
+}
+
+.social-items span {
+    margin-top: .5rem;
+}
