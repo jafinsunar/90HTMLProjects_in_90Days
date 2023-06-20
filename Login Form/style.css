@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    background-color: whitef;
+    background-color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -105,4 +105,82 @@ input:focus {
     margin-bottom: .5rem;
     font-size: .8rem;
     
+}
+
+.flexUl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flexUl a {
+    text-decoration: none;
+
+}
+
+.flexUl li{
+    list-style: none;
+}
+
+.flexUl li i {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-brands{
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+
+}
+
+.fa-google {
+background-color: orangered;
+}
+
+.fa-twitter {
+    background-color: rgb(43,71,228);
+}
+
+.fa-facebook-f {
+    background-color: darkblue;
+}
+
+.t-center {
+    text-align: center;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    padding: 0.7rem 0.8rem;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+
+#signUp{ 
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    padding: 0.6rem 2rem;
+    border-radius: 0.9rem;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#signUp:hover {
+    color:white;
+    transform: scale(105%);
 }
